@@ -9,7 +9,7 @@
 				$this->load->database();
 				$this->load->helper('url');
 				$this->load->library(array('form_validation','session'));
-				echo "test test";
+				
 
 			}
 			
