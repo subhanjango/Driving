@@ -12,7 +12,7 @@
 
 
 			}
-
+			//Insert 
 			public function insert(){
 			$rules = array(
        		 array(
@@ -39,7 +39,7 @@
 				endif;
 				redirect("Main/index");
 			}
-
+			
 			public function view()
 			{
 				$data=$this->post_model->get();
