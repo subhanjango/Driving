@@ -48,7 +48,5 @@
 				endif;
 			}
 
-			public function delete(){
-				echo 1;
-			}
+			
 		}
