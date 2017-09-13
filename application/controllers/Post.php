@@ -47,4 +47,8 @@
 					$this->load->view('admin/view',$data);
 				endif;
 			}
+
+			public function delete(){
+				echo 1;
+			}
 		}
